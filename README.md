@@ -1,4 +1,4 @@
-# Technical-Teaching-Design
+# Technical-Teaching-Website
 **My site is published at** : https://taneeshasrivastava.github.io/Technical-Teaching-Design/
 
 ![image](https://user-images.githubusercontent.com/73888467/149202817-8e94ad5a-c8f5-4157-b201-0c99485225a2.png)
