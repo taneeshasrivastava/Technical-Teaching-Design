@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4c203622c.js" crossorigin="anonymous"></script>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"> <img src="image/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"  onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li> 
+                <li><a href="blog.html">BLOG</a></li> 
+                <li><a href="contact.html">CONTACT</a></li>              
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our courses</h1>
+</section>
+
+<!-------course--------->
+<section class="course">
+    <h1>Training We Offer</h1>
+    <p>A Training Needs Analysis (TNA) is an in-depth review of any learning and development requirements for employees, volunteers and trustees within in your organisation.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Web Development</h3>
+            <p> To become a Web Developer, you should have an understanding of HTML, CSS, and JavaScript. It's also recommended to learn about CSS and CSS frameworks. Developing these fundamental web development skills will give you the foundation and logic for communicating with programming languages.</p>
+        </div>
+        <div class="course-col">
+            <h3>Machine Learning</h3>
+            <p> Machine learning (ML) is the study of computer algorithms that can improve automatically through experience and by the use of data. ... Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so</p>
+        </div>
+        <div class="course-col">
+            <h3>Cyber Security</h3>
+            <p> Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information security. A compromised application could provide access to the data its designed to protect.</p>
+        </div>
+    </div>
+</section>
+
+<!----------Facilities-------->
+<section class="facilites">
+    <h1>Our Facilities</h1>
+    <p>An place for doing something, or a place that facilitates an activity: A commercial or institutional building, such as a hotel, resort, school, office complex, sports arena, or convention center. Medical facility. Post-production facility.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="image/tech_lib.jpg" >
+            <h3>Technical library</h3>
+            <p>A technical services librarian is someone who is responsible for acquiring, preserving, archiving and organizing various types of library materials that are data-driven. For example, these individuals manage all technical services in a library, including AV equipment, copy machines, computers and video projectors.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="image/cls.jfif" >
+            <h3> Digital Classrooms </h3>
+            <p>The Digital Classroom is a Classroom which depends on electronic devices and software to teach students and incorporates technology into the learning process. In the digital classroom, a traditional classroom converts into a digital space for teaching purposes with the use of computers and the Internet.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="image/caf.jpg" >
+            <h3>Tasty and Healthy Food</h3>
+            <p>Almonds are the ultimate crunchy treat. They're rich in heart-healthy fats, are very nutritious, and require no preparation. Almonds are packed with antioxidants and provide large amounts of fiber, protein, and several vitamins and minerals, such as vitamin E, manganese, and magnesium.</p>
+        </div>  
+    </div>
+</section>
+
+<!---------FOOTER------------------>
+<secton class="footer">
+    <h4>ABOUT US</h4>
+    <p>Industrial Training Institutes (ITI) and Industrial Training Centers (ITC) are<br> post-secondary schools in India constituted under Directorate  World Top training center </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>by Taneesha srivastava </p>
+</section>
+
+<!------javascript for toggle menu----->
+<script>
+    // var y = document.getElementByID("navLinks");
+
+    function showMenu(){
+        // y.style.right = "0px";
+        var x = document.getElementById("dropdown");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+        
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+</body>
+</html>
